@@ -1,0 +1,90 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: #432000;
+    background-color: #EEF0F4;
+
+}
+
+
+
+#todo {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 320px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dadfe6;
+    text-align: center;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.container {
+    user-select: none;
+    display: flexbox;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+#addList {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 320px;
+    padding: 10px;
+    color: white;
+    background-color: #428af5;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#addList:hover {
+    color: black;
+    background-color: #50f527;
+    cursor: pointer;
+}
+
+ul {
+
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 320px;
+    list-style-position: inside;
+    text-align: center;
+    gap: 10px;
+}
+
+ul li {
+    user-select: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #FFFDF8;
+    color: #432000;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+ul li:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
